@@ -9,6 +9,16 @@ The Web Service provides the following operations:
 * `getCompte`: Fetches the details of a specific bank account using its code.
 * `listComptes`: Retrieves a list of available bank accounts.
 
+## Skills Acquired
+
+Through the development of this project, I have applied and reinforced the following technical skills:
+
+* **Web Services Architecture:** Understanding the Client-Server model and Remote Procedure Calls (RPC) using SOAP.
+* **JAX-WS / Jakarta EE:** Creating and publishing web service endpoints using Java annotations (`@WebService`, `@WebMethod`, `@WebParam`).
+* **XML & WSDL:** Analyzing and understanding Web Services Description Language (WSDL) structures and SOAP XML envelopes.
+* **Build Tools & Automation:** Using **Maven** to manage project dependencies and utilizing plugins (`jaxws-maven-plugin`) to automatically generate Client Stubs/Proxies from a WSDL.
+* **API Testing:** Using tools like **SoapUI** to mock requests, parse XML responses, and test SOAP endpoints.
+
 ## Technologies Used
 
 * **Java** (JDK 11 / 17 / 25)
